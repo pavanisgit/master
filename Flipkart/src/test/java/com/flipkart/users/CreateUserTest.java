@@ -26,6 +26,7 @@ public class CreateUserTest extends BaseTest{
 		
 		//initialization
 		
+		
 		lp.login(filelib.readPropData(PROP_PATH,"username"), filelib.readPropData(PROP_PATH,"password"));
 		
 		WebDriverCommonLib wdcl = new WebDriverCommonLib();
